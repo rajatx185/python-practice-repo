@@ -1,0 +1,36 @@
+Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides
+Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin
+Refactoring: Improving the Design of Existing Code by Martin Fowler
+The Pragmatic Programmer: From Journeyman to Master by Andrew Hunt and David Thomas
+Code Complete: A Practical Handbook of Software Construction by Steve McConnell
+Domain-Driven Design: Tackling Complexity in the Heart of Software by Eric Evans
+Agile Estimating and Planning by Mike Cohn
+Growing Object-Oriented Software, Guided by Tests by Steve Freeman and Nat Pryce
+Release It!: Design and Deploy Production-Ready Software by Michael T. Nygard
+Working Effectively with Legacy Code by Michael Feathers
+The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win by Gene Kim, Kevin Behr, and George Spafford
+Patterns of Enterprise Application Architecture by Martin Fowler
+Test Driven Development: By Example by Kent Beck
+The Clean Coder: A Code of Conduct for Professional Programmers by Robert C. Martin
+Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation by Jez Humble and David Farley
+Design It!: From Programmer to Software Architect by Michael Keeling
+The Art of Computer Programming, Volumes 1-4A Boxed Set by Donald E. Knuth
+The Architecture of Open Source Applications by Amy Brown and Greg Wilson
+The Lean Startup: How Today’s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses by Eric Ries
+Algorithms to Live By: The Computer Science of Human Decisions by Brian Christian and Tom Griffiths
+The Object-Oriented Thought Process by Matt Weisfeld
+The Software Craftsman: Professionalism, Pragmatism, Pride by Sandro Mancuso
+The Structure and Interpretation of Computer Programs by Harold Abelson and Gerald Jay Sussman
+Expert Python Programming, Second Edition by Tarek Ziadé
+Introduction to the Theory of Computation by Michael Sipser
+User Stories Applied: For Agile Software Development by Mike Cohn
+Implementing Domain-Driven Design by Vaughn Vernon
+The Unix Programming Environment by Brian W. Kernighan and Rob Pike
+The Self-Taught Programmer: The Definitive Guide to Programming Professionally by Cory Althoff
+Understanding the Linux Kernel, Third Edition by Daniel P. Bovet and Marco Cesati
+Data Structures and Algorithms in Python by Michael T. Goodrich, Roberto Tamassia, and Michael H. Goldwasser
+Design Patterns Explained: A New Perspective on Object-Oriented Design by Alan Shalloway and James R. Trott
+A Philosophy of Software Design by John Ousterhout
+How to Read and Do Proofs by Daniel J. Velleman
+Practical Object-Oriented Design in Ruby: An Agile Primer by Sandi Metz
+The Hitchhiker’s Guide to Python!: Best Practices for Development by

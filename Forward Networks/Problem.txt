@@ -1,0 +1,49 @@
+Instructions
+
+
+
+Write an iterator class that converts a string iterator into a block iterator (list of string iterator), where the start of blocks are marked by strings matching a user-supplied regular expression (regex).
+
+
+
+The inputIterator returns one string at a time. startOfBlock is a regex that if matches against an element in the input, marks the start of a block. A block starts from a string that matches startOfBlock and ends either right before the starts of next block, or at the end of the inputIterator.
+
+
+
+Example:
+
+inputIterator: ["123", "start1", "data1", "data2", "start-foo", "data3", "start-bar"]
+
+startOfBlock: "start*"
+
+
+
+Then upon calling next() we will get the following:
+
+next() ==> ["start1", "data1", "data2"]
+next() ==> ["start-foo", "data3"]
+next() ==> ["start-bar"]
+next() ==> throw {@link java.util.NoSuchElementException}
+
+
+Starter Code:
+
+Use the provided starter code. You will need to fill in the following two functions:
+
+BlockIterator.hasNext()
+BlockIterator.next()
+When you run the code, all the pre-built tests should pass, and the output should show an array of "true"s.
+
+
+
+Hints:
+
+Use Java Pattern to match String with regex.
+Iterator: An Iterator is an interface with two methods: hasNext() and next(). hasNext() returns whether the next element is present (a boolean value). next() returns the next element if present, otherwise throws a NoSuchElementException. Iterators as commonly used to iterate over elements of a collection or over data read from files or from the network.
+
+
+Implementation considerations:
+
+The solution should scale well to very large input iterators, e.g. it should be able to handle an infinite input iterator.
+Calling hasNext() should have no effect on the returned value of the next() call.
+The data at the beginning of the input stream may not be part of any block, if they are not preceded by a string matching the startOfBlock pattern. In the provided example, “123” did not show up in any of the returned blocks.

@@ -1,0 +1,11 @@
+- Requirements
+- Use Case Diagram
+- Class Diagram
+ - Botttom up Approach
+ - Design Components
+ - Relationship between Components
+    - Association
+    - Composition
+    - Aggregation
+    - Dependency
+

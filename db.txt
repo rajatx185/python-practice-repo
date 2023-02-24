@@ -1,0 +1,19 @@
+There are several types of locks used in database management systems, including:
+
+Shared locks: Allow multiple transactions to read data simultaneously, but prevent any of them from modifying it until the lock is released.
+
+Exclusive locks: Allow only one transaction to modify data at a time, and prevent all other transactions from accessing the locked data until the lock is released.
+
+Intent locks: Used to indicate the intention of a transaction to lock data at a higher level of granularity, such as a table or page, in preparation for acquiring lower-level locks on specific rows or pages.
+
+Read lock: A type of shared lock that is used to lock data for reading.
+
+Write lock: A type of exclusive lock that is used to lock data for writing.
+
+Update lock: A type of exclusive lock that is used to lock data for modification, but allows other transactions to read the data.
+
+Page lock: A lock that is applied at the page level, rather than the row level.
+
+Row lock: A lock that is applied at the row level, rather than the page or table level.
+
+The choice of lock type depends on the specific requirements of the transaction, such as the level of concurrency and the need to prevent conflicting updates, and the design of the database management system.

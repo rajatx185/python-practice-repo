@@ -44,3 +44,39 @@ class SportVehicle(Vehicle):
 if __name__ == "__main__":
     obj = SportVehicle(NormalDriveStrategy())
     obj.drive()
+
+
+### Example 2
+from abc import ABC, abstractmethod
+
+class Payment(ABC):
+    @abstractmethod
+    def pay(self, amount: int):
+        pass
+
+class CreditCardPayment(Payment):
+    def pay(self, amount: int):
+        print(f"Paying {amount} using credit card")
+
+class PayPalPayment(Payment):
+    def pay(self, amount: int):
+        print(f"Paying {amount} using PayPal")
+
+class CashPayment(Payment):
+    def pay(self, amount: int):
+        print(f"Paying {amount} in cash")
+
+class Purchase:
+    def __init__(self, payment: Payment):
+        self.payment = payment
+
+    def pay(self, amount: int):
+        self.payment.pay(amount)
+
+purchase = Purchase(CashPayment())
+purchase.pay(100)
+
+"""
+In this example, the Purchase class accepts an object that implements the Payment interface. The Purchase class can use different payment strategies, such as credit card, PayPal, or cash, without having to know the details of the specific payment method. The Pay method is defined in the Payment class and is implemented by the different payment strategies.
+
+"""

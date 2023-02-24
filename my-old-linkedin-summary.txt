@@ -1,0 +1,37 @@
+Dyno v3(Internal Developer Platform): Led a team of 3 developers. Spearheaded the Planning and E2E development of multiple features: Database Instance Onboarding, Employee Access Revoke, AWS Access, MongoDB Access, Hive Access, Presto Access, Database Time Bound Access, Application Secrets Management, OpenVPN Access, Database Headless User Access, Resource Owner Management, AWS S3 Bucket Creation Approval, Third Party Vendor, IP Whitelisting Approval, Subdomain Creation Approval, AWS Firewall Domain Whitelisting Approval, Jumpcloud Managed Resource Access, Custom Infra Access, etc.
+
+The CTO closely tracked the project since its inception. 
+
+6k+ requests handled for 300+ resources. 
+
+Worked with DevOps, IT, Security, and Data Platform teams for requirements and design.
+
+
+Dyno v3: Spearheaded the E2E product development lifecycle for the launch of Dyno v3. The revamped version featured Multi-Org Support, ReactJS-powered Frontend, Google Sign In, Django, and Django Rest Framework Powered API Backend, Swagger, Two Level Approval Flow, Feature Flag, Knowledge Base, Group Based Access Control, Auditing, Alerting, Logging, Monitoring, Integration with Darwinbox and Jumpcloud, etc. Collaborated with senior architects to redesign the database schema for supporting complex business use cases. Redesigned and migrated the existing modules.
+
+Training and Hiring: Led the effort for new joiners hiring and training.
+
+Dyno v2: Designed, Implemented, and Deployed a self-serviceable web application for resource access management with LDAP-based authentication and authorization, user password management, and manager approval flow. The newly added modules include Jenkins Access, Employee Onboarding with Onboarding Guide, Microservice Catalog, and Oncall Module.
+
+Jumpcloud and API Integration: Jumpcloud is an SSO and Active Directory Solution. Evaluated Jumpcloud and API Integration for automating access to Jenkins, Atlassian cloud, GitHub, New Relic, Instana Cloud, ELK Stack, Grafana, Dyno, G-suite, TICK stack, etc.
+
+On-premise Data Center Solution: Designed, Implemented, and Deployed the in-house solutions for the HA NFS server, HA Docker Registry, Database Sync Job, OpenLDAP Installation, Kafka Manager and Cluster Installation, Amazon Route 53 configuration, and Elasticsearch load testing using Rally.
+
+Dyno v1: Designed, Implemented, and Deployed an E2E web application for automating single-click user access provisioning. The app enabled our Systems Engineering and IT team to manage resource access provisioning for our Tech Team.
+
+Cloud Cost Governance Framework: Designed, Implemented, and Deployed an E2E framework for Cloud Cost Governance using Cloud Custodian. The framework helped our systems engineering team reduce cloud costs.
+
+
+Delivery and Operations: Designed and Implemented the microservices-based CI/CD and hotfix testing deployment pipelines for delivery accounts like Comcast, Globe, and Vodafone. Developed custom Kubernetes deployment for Comcast and Globe. Created Zabbix templates for Comcast production monitoring. Used Jenkins Declarative Pipeline, Ansible, Helm, Kubernetes, and Shell Scripting.
+
+Training and Hiring: Led the effort for new joiners hiring and training.
+
+Automation Manager(Internal Developer Platform): Implemented new capabilities and supported existing ones. Used Python, Django, Django Rest Framework, PostgreSQL, etc.
+
+Decomposition Orchestration Platform(DOP): Spearheaded DOP Certification on AWS. Designed and Implemented the microservices-based CI/CD pipelines on Openstack. Collaborated with the development team to implement PostgreSQL and Prometheus-based monitoring for the DOP hybrid solution. Used Jenkins Multibranch Pipeline, Terraform, Ansible, and Shell Scripting.
+
+Network Function Virtualization(NFV): Added new capabilities in the existing CI/CD pipelines for the monolithic and microservice-based deployment. Collaborated with the security team to conduct a DevSecOps POC for security tools like CheckMarx, Appspider, OWASP Dependency-Check, and Threadfix.
+
+ONAP Hosted Development Environment: Implemented complex manual and automated procedures for deploying the latest releases of AEE to HPE Openstack. Used Git hooks, shell scripting, ansible, and jenkins.
+
+Infrastructure Management: Handled the Deployment, Migration, Monitoring Setup, Troubleshooting, and Disaster recovery automation for on-premise solutions like Openstack, KVM, Gitlab, Gerrit, Nexus, Jenkins, Prometheus, Grafana, Zabbix, Jira, Confluence, Openldap, NFS, SonarQube, DNS, Automation Manager, etc.

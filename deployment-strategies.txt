@@ -1,0 +1,11 @@
+Canary Deployment: A canary deployment is a technique for releasing new versions of software in production by gradually rolling out the change to a small subset of users before rolling it out to the entire infrastructure. The goal is to reduce the risk of introducing a new version by testing it in a real-world environment before making it widely available.
+
+Blue-Green Deployment: Blue-Green deployment is a deployment strategy that involves running two identical production environments, called Blue and Green. At any given time, only one of the environments is live, serving all production traffic. When a new version of the software is ready, it is deployed to the non-live environment, which becomes the new Green environment. Then, all traffic is switched to the new Green environment, making the old Blue environment inactive.
+
+A/B Testing: A/B testing is a technique for comparing two or more versions of a product, feature or service to determine which one performs better. It is commonly used in software development to test new features or changes to existing features before they are rolled out to a larger audience.
+
+Rolling Deployment: Rolling deployment is a deployment strategy where new versions of the software are gradually rolled out to the servers in the production environment, one at a time, instead of deploying all at once. The goal is to minimize downtime and ensure that the new version is compatible with the existing infrastructure.
+
+Shadow Deployment: Shadow deployment is a deployment strategy where a new version of the software is deployed alongside the existing version, but the new version is not used to serve any production traffic. The goal is to test the new version in a real-world environment without affecting live users.
+
+Feature Toggles: Feature toggles (also known as feature flags) is a deployment strategy that involves separating the deployment of code changes from the release of new features. With feature toggles, new features can be deployed in the code, but not activated for users until a later time. This allows teams to release new features gradually and test them in a real-world environment before making them widely available.
